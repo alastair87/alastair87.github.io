@@ -9,7 +9,6 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "alastair87", // Usually your GitHub org/user name.
   projectName: "alastair87.github.io", // Usually your repo name.
-  plugins: ["docusaurus2-dotenv"],
   themeConfig: {
     navbar: {
       title: "My Site",
