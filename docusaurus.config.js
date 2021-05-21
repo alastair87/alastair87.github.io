@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Alastair's Guides",
+  title: "Alastair's Tech Guides",
   tagline: "Dinosaurs are cool",
   url: "https://alastair87.github.io",
   baseUrl: "/",
@@ -9,15 +9,16 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "alastair87", // Usually your GitHub org/user name.
   projectName: "alastair87.github.io", // Usually your repo name.
+  themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
-      title: "Alastair's Guides",
+      title: "Alastair's Tech Guides",
       logo: {
         alt: "alastair87",
         src: "img/alastair87.png",
       },
       items: [
-        { to: "/", label: "Home", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         {
           type: "doc",
           docId: "intro",
@@ -92,8 +93,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
-            path: "./blog",
-            routeBasePath: "/"
+            // path: "./blog",
+            // routeBasePath: "/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
