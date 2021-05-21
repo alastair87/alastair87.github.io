@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
+  title: "Alastair's Guides",
   tagline: "Dinosaurs are cool",
   url: "https://alastair87.github.io",
   baseUrl: "/",
@@ -11,21 +11,21 @@ module.exports = {
   projectName: "alastair87.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Alastair's Guides",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "alastair87",
+        src: "img/alastair87.png",
       },
       items: [
+        { to: "/blog", label: "Blog", position: "left" },
         {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial",
-        },
-        { to: "/blog", label: "Blog", position: "left" },
+          label: "Guides",
+        },        
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/alastair87",
           label: "GitHub",
           position: "right",
         },
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Alastair Cooper. Built with Docusaurus.`,
     },
   },
   presets: [
