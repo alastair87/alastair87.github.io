@@ -17,7 +17,7 @@ module.exports = {
         src: "img/alastair87.png",
       },
       items: [
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/", label: "Home", position: "left" },
         {
           type: "doc",
           docId: "intro",
@@ -92,6 +92,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            path: "./blog",
+            routeBasePath: "/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
