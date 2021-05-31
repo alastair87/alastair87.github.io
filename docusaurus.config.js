@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Alastair's Tech Guides",
+  title: "Alastair's Guides",
   tagline: "Dinosaurs are cool",
   url: "https://alastair87.github.io",
   baseUrl: "/",
@@ -12,7 +12,7 @@ module.exports = {
   themes: ["@docusaurus/theme-live-codeblock"],
   themeConfig: {
     navbar: {
-      title: "Alastair's Tech Guides",
+      title: "Alastair's Guides",
       logo: {
         alt: "alastair87",
         src: "img/alastair87.png",
@@ -24,7 +24,7 @@ module.exports = {
           docId: "intro",
           position: "left",
           label: "Guides",
-        },        
+        },       
         {
           href: "https://github.com/alastair87",
           label: "GitHub",
@@ -36,7 +36,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Guides",
           items: [
             {
               label: "Tutorial",
@@ -45,7 +45,7 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "Resources",
           items: [
             {
               label: "Stack Overflow",
@@ -86,13 +86,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/alastair87/alastair87.github.io/edit/content/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/alastair87/alastair87.github.io/edit/content/blog/",
             // path: "./blog",
             // routeBasePath: "/"
         },
