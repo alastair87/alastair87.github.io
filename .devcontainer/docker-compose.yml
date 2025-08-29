@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  hugo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+    working_dir: /workspace
+    command: sleep infinity
+    ports:
+      - "1313:1313"
+    environment:
+      - HUGO_ENV=development

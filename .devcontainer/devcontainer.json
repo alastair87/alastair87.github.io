@@ -1,0 +1,53 @@
+{
+    "name": "Hugo Development Environment",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "USERNAME": "ubuntu",
+            "USER_UID": "1000",
+            "USER_GID": "1000"
+        }
+    },
+    
+    // Configure tool-specific properties
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bungcip.better-toml",
+                "budparr.language-hugo-vscode",
+                "davidanson.vscode-markdownlint",
+                "ms-vscode.vscode-json",
+                "yzhang.markdown-all-in-one",
+                "streetsidesoftware.code-spell-checker"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "files.associations": {
+                    "*.md": "markdown",
+                    "*.toml": "toml"
+                }
+            }
+        }
+    },
+
+    // Forward ports for Hugo development server
+    "forwardPorts": [1313],
+    
+    // Set the default port attributes
+    "portsAttributes": {
+        "1313": {
+            "label": "Hugo Development Server",
+            "onAutoForward": "notify"
+        }
+    },
+
+    // Use 'postCreateCommand' to run commands after the container is created
+    "postCreateCommand": "hugo version && git submodule update --init --recursive",
+
+    // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root
+    "remoteUser": "ubuntu",
+
+    // Mount the workspace folder
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+}
