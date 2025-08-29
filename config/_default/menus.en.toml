@@ -20,9 +20,14 @@ name = "Film & TV"
 pageRef = "film-tv"
 weight = 10
 
+[[main]]
+name = "Tech"
+pageRef = "tech"
+weight = 20
+
 #[[main]]
 #  name = "Parent"
-#  weight = 20
+#  weight = 30
 
 #[[main]]
 #  name = "example sub-menu 1"
