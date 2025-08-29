@@ -10,20 +10,74 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+name = "Pathfinder"
+pageRef = "think-tank"
+weight = 10
+
+[[main]]
+name = "Strategy & Positioning"
+pageRef = "think-tank/strategy-positioning"
+parent = "Pathfinder"
+weight = 10
+
+[[main]]
+name = "Society & Policy"
+pageRef = "think-tank/society-policy"
+parent = "Pathfinder"
+weight = 20
+
+[[main]]
+name = "Operational Notes"
+pageRef = "think-tank/operational-notes"
+parent = "Pathfinder"
+weight = 30
 
 [[main]]
 name = "Film & TV"
 pageRef = "film-tv"
+weight = 20
+
+[[main]]
+name = "Deep Dives"
+pageRef = "film-tv/deep-dives"
+parent = "Film & TV"
 weight = 10
 
 [[main]]
-name = "Tech"
-pageRef = "tech"
+name = "Industry Lens"
+pageRef = "film-tv/industry-lens"
+parent = "Film & TV"
 weight = 20
+
+[[main]]
+name = "Crossovers"
+pageRef = "film-tv/crossovers"
+parent = "Film & TV"
+weight = 30
+
+[[main]]
+name = "Frameworks"
+pageRef = "frameworks"
+weight = 30
+
+[[main]]
+name = "Concepts & Models"
+pageRef = "frameworks/concepts-models"
+parent = "Frameworks"
+weight = 10
+
+[[main]]
+name = "Applications"
+pageRef = "frameworks/applications"
+parent = "Frameworks"
+weight = 20
+
+[[main]]
+name = "Meta-Methods"
+pageRef = "frameworks/meta-methods"
+parent = "Frameworks"
+weight = 30
 
 #[[main]]
 #  name = "Parent"

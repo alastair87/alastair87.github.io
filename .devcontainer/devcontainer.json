@@ -13,12 +13,11 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "bungcip.better-toml",
                 "budparr.language-hugo-vscode",
                 "davidanson.vscode-markdownlint",
                 "ms-vscode.vscode-json",
                 "yzhang.markdown-all-in-one",
-                "streetsidesoftware.code-spell-checker"
+                "tamasfe.even-better-toml"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash",
@@ -36,7 +35,7 @@
     // Set the default port attributes
     "portsAttributes": {
         "1313": {
-            "label": "Hugo Development Server",
+            "label": "Hugo",
             "onAutoForward": "notify"
         }
     },
