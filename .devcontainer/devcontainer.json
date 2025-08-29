@@ -1,5 +1,5 @@
 {
-    "name": "Hugo Development Environment",
+    "name": "Hugo",
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
