@@ -79,6 +79,11 @@ pageRef = "frameworks/meta-methods"
 parent = "Frameworks"
 weight = 30
 
+[[main]]
+name = "About"
+pageRef = "about"
+weight = 100
+
 #[[main]]
 #  name = "Parent"
 #  weight = 30
