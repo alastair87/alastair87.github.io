@@ -7,8 +7,22 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 ---
+{{< figure src="/images/about.png" alt="About" class="about-image" >}}
 
-{{< figure src="/images/about.png" alt="About" >}}
+<style>
+.about-image {
+    margin-top: -1rem !important;
+    margin-bottom: 1.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+.about-image img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
 
 Welcome! I'm a researcher, analyst, and framework developer exploring complex problems through systematic thinking.
 
