@@ -11,55 +11,42 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "Pathfinder"
-pageRef = "think-tank"
-weight = 10
-
-[[main]]
 name = "Strategy & Positioning"
 pageRef = "think-tank/strategy-positioning"
-parent = "Pathfinder"
 weight = 10
 
 [[main]]
 name = "Society & Policy"
 pageRef = "think-tank/society-policy"
-parent = "Pathfinder"
 weight = 20
 
 [[main]]
-name = "Operational Notes"
-pageRef = "think-tank/operational-notes"
-parent = "Pathfinder"
-weight = 30
-
-[[main]]
-name = "Media Lens"
+name = "Culture & Story"
 pageRef = "film-tv"
-weight = 20
+weight = 30
 
 [[main]]
 name = "Deep Dives"
 pageRef = "film-tv/deep-dives"
-parent = "Media Lens"
+parent = "Culture & Story"
 weight = 10
 
 [[main]]
 name = "Industry Lens"
 pageRef = "film-tv/industry-lens"
-parent = "Media Lens"
+parent = "Culture & Story"
 weight = 20
 
 [[main]]
 name = "Crossovers"
 pageRef = "film-tv/crossovers"
-parent = "Media Lens"
+parent = "Culture & Story"
 weight = 30
 
 [[main]]
 name = "Frameworks"
 pageRef = "frameworks"
-weight = 30
+weight = 40
 
 [[main]]
 name = "Concepts & Models"

@@ -1,5 +1,5 @@
 ---
-title: "Media Lens"
+title: "Culture & Story"
 description: "Analytical essays, industry analysis, and framework applications to media"
 layout: "section"
 showDate: false

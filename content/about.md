@@ -28,11 +28,13 @@ Welcome! I'm a researcher, analyst, and framework developer exploring complex pr
 
 ## What I Do
 
-This site documents my work across three main areas:
+This site documents my work across several main areas:
 
-**Pathfinder** - Building a one-person think tank focused on independent research, policy analysis, and strategic thinking about contemporary issues.
+**Strategy & Positioning** - Building independent research capabilities and strategic thinking about contemporary issues.
 
-**Media Lens** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
+**Society & Policy** - Analysis of real-world policy, economics, and cultural trends through an analytical lens.
+
+**Culture & Story** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
 
 **Frameworks** - Original conceptual frameworks for understanding complex problems, along with practical applications and methodology discussions.
 
