@@ -1,17 +1,17 @@
 ---
-title: "Welcome to Film & TV"
+title: "Welcome to Media Lens"
 date: 2025-08-29
 draft: false
-description: "Introduction to the Film & TV section"
-tags: ["introduction", "film", "tv"]
-categories: ["Film & TV"]
+description: "Introduction to the Media Lens section"
+tags: ["introduction", "media", "analysis"]
+categories: ["Media Lens"]
 ---
 
-This is the first post in the Film & TV section. Here you can expect to find:
+This is the first post in the Media Lens section. Here you can expect to find:
 
-- Movie reviews and recommendations
-- TV show discussions
-- Analysis of cinematography and storytelling
-- Industry news and commentary
+- Deep analytical essays on films and TV shows
+- Structural analysis of the entertainment industry
+- Framework-based approaches to understanding media
+- Cultural critique and narrative analysis
 
 Stay tuned for more content!

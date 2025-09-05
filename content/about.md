@@ -32,7 +32,7 @@ This site documents my work across three main areas:
 
 **Pathfinder** - Building a one-person think tank focused on independent research, policy analysis, and strategic thinking about contemporary issues.
 
-**Film & TV** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
+**Media Lens** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
 
 **Frameworks** - Original conceptual frameworks for understanding complex problems, along with practical applications and methodology discussions.
 

@@ -34,26 +34,26 @@ parent = "Pathfinder"
 weight = 30
 
 [[main]]
-name = "Film & TV"
+name = "Media Lens"
 pageRef = "film-tv"
 weight = 20
 
 [[main]]
 name = "Deep Dives"
 pageRef = "film-tv/deep-dives"
-parent = "Film & TV"
+parent = "Media Lens"
 weight = 10
 
 [[main]]
 name = "Industry Lens"
 pageRef = "film-tv/industry-lens"
-parent = "Film & TV"
+parent = "Media Lens"
 weight = 20
 
 [[main]]
 name = "Crossovers"
 pageRef = "film-tv/crossovers"
-parent = "Film & TV"
+parent = "Media Lens"
 weight = 30
 
 [[main]]

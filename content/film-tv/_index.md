@@ -1,5 +1,5 @@
 ---
-title: "Film & TV"
+title: "Media Lens"
 description: "Analytical essays, industry analysis, and framework applications to media"
 layout: "section"
 showDate: false
