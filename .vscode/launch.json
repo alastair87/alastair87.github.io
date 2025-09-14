@@ -1,0 +1,50 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hugo Serve (with drafts)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "hugo serve -D",
+            "cwd": "${workspaceFolder}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "name": "Hugo Serve (production)",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "hugo serve",
+            "cwd": "${workspaceFolder}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        },
+        {
+            "name": "Hugo Build",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "hugo",
+            "cwd": "${workspaceFolder}",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        }
+    ]
+}
