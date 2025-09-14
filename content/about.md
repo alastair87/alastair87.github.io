@@ -34,7 +34,7 @@ This site documents my work across several main areas:
 
 **Society & Policy** - Analysis of real-world policy, economics, and cultural trends through an analytical lens.
 
-**Culture & Story** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
+**Film & TV** - Analytical essays on media, from deep dives into individual works to structural analysis of the entertainment industry.
 
 **Frameworks** - Original conceptual frameworks for understanding complex problems, along with practical applications and methodology discussions.
 

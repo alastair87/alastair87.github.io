@@ -1,13 +1,13 @@
 ---
-title: "Welcome to Culture & Story"
+title: "Welcome to Film & TV"
 date: 2025-08-29
 draft: false
-description: "Introduction to the Culture & Story section"
-tags: ["introduction", "culture", "story", "analysis"]
-categories: ["Culture & Story"]
+description: "Introduction to the Film & TV section"
+tags: ["introduction", "film", "tv", "analysis"]
+categories: ["Film & TV"]
 ---
 
-This is the first post in the Culture & Story section. Here you can expect to find:
+This is the first post in the Film & TV section. Here you can expect to find:
 
 - Deep analytical essays on films and TV shows
 - Structural analysis of the entertainment industry

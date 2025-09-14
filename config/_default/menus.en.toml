@@ -11,60 +11,67 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "Strategy & Positioning"
-pageRef = "think-tank/strategy-positioning"
-weight = 10
-
-[[main]]
-name = "Society & Policy"
-pageRef = "think-tank/society-policy"
-weight = 20
-
-[[main]]
-name = "Culture & Story"
+name = "Film & TV"
 pageRef = "film-tv"
-weight = 30
+weight = 10
 
 [[main]]
 name = "Deep Dives"
 pageRef = "film-tv/deep-dives"
-parent = "Culture & Story"
+parent = "Film & TV"
 weight = 10
 
 [[main]]
 name = "Industry Lens"
 pageRef = "film-tv/industry-lens"
-parent = "Culture & Story"
+parent = "Film & TV"
 weight = 20
 
 [[main]]
 name = "Crossovers"
 pageRef = "film-tv/crossovers"
-parent = "Culture & Story"
+parent = "Film & TV"
 weight = 30
 
 [[main]]
-name = "Frameworks"
-pageRef = "frameworks"
+name = "Deep Cuts"
+pageRef = "film-tv/deep-cuts"
+parent = "Film & TV"
 weight = 40
 
-[[main]]
-name = "Concepts & Models"
-pageRef = "frameworks/concepts-models"
-parent = "Frameworks"
-weight = 10
+# Hidden sections (commented out but preserved)
+#[[main]]
+#name = "Strategy & Positioning"
+#pageRef = "think-tank/strategy-positioning"
+#weight = 20
 
-[[main]]
-name = "Applications"
-pageRef = "frameworks/applications"
-parent = "Frameworks"
-weight = 20
+#[[main]]
+#name = "Society & Policy"
+#pageRef = "think-tank/society-policy"
+#weight = 30
 
-[[main]]
-name = "Meta-Methods"
-pageRef = "frameworks/meta-methods"
-parent = "Frameworks"
-weight = 30
+#[[main]]
+#name = "Frameworks"
+#pageRef = "frameworks"
+#weight = 40
+
+#[[main]]
+#name = "Concepts & Models"
+#pageRef = "frameworks/concepts-models"
+#parent = "Frameworks"
+#weight = 10
+
+#[[main]]
+#name = "Applications"
+#pageRef = "frameworks/applications"
+#parent = "Frameworks"
+#weight = 20
+
+#[[main]]
+#name = "Meta-Methods"
+#pageRef = "frameworks/meta-methods"
+#parent = "Frameworks"
+#weight = 30
 
 [[main]]
 name = "About"
