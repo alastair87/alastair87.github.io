@@ -26,7 +26,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get install -y nodejs
 
 # Install Go (required for Hugo modules)
-ENV GO_VERSION=1.21.13
+ENV GO_VERSION=1.25.1
 RUN wget -O go.tar.gz "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" \
     && tar -C /usr/local -xzf go.tar.gz \
     && rm go.tar.gz
