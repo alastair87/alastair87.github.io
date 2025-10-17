@@ -5,7 +5,8 @@
         "args": {
             "USERNAME": "ubuntu",
             "USER_UID": "1000",
-            "USER_GID": "1000"
+            "USER_GID": "1000",
+            "HUGO_VERSION": "${localEnv:HUGO_VERSION:0.151.0}"
         }
     },
     
