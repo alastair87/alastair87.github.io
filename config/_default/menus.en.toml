@@ -11,9 +11,32 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+name = "Frameworks"
+pageRef = "frameworks"
+weight = 5
+
+[[main]]
+name = "Concepts & Models"
+pageRef = "frameworks/concepts-models"
+parent = "Frameworks"
+weight = 10
+
+[[main]]
+name = "Applications"
+pageRef = "frameworks/applications"
+parent = "Frameworks"
+weight = 20
+
+[[main]]
+name = "Meta-Methods"
+pageRef = "frameworks/meta-methods"
+parent = "Frameworks"
+weight = 30
+
+[[main]]
 name = "Film & TV"
 pageRef = "film-tv"
-weight = 10
+weight = 20
 
 [[main]]
 name = "Deep Dives"
@@ -48,29 +71,6 @@ weight = 40
 #[[main]]
 #name = "Society & Policy"
 #pageRef = "think-tank/society-policy"
-#weight = 30
-
-#[[main]]
-#name = "Frameworks"
-#pageRef = "frameworks"
-#weight = 40
-
-#[[main]]
-#name = "Concepts & Models"
-#pageRef = "frameworks/concepts-models"
-#parent = "Frameworks"
-#weight = 10
-
-#[[main]]
-#name = "Applications"
-#pageRef = "frameworks/applications"
-#parent = "Frameworks"
-#weight = 20
-
-#[[main]]
-#name = "Meta-Methods"
-#pageRef = "frameworks/meta-methods"
-#parent = "Frameworks"
 #weight = 30
 
 [[main]]
