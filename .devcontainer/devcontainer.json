@@ -6,7 +6,7 @@
             "USERNAME": "ubuntu",
             "USER_UID": "1000",
             "USER_GID": "1000",
-            "HUGO_VERSION": "${localEnv:HUGO_VERSION:0.151.0}"
+            "HUGO_VERSION": "${localEnv:HUGO_VERSION:0.152.2}"
         }
     },
     
@@ -18,7 +18,8 @@
                 "davidanson.vscode-markdownlint",
                 "ms-vscode.vscode-json",
                 "yzhang.markdown-all-in-one",
-                "tamasfe.even-better-toml"
+                "tamasfe.even-better-toml",
+                "natqe.reload"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash",

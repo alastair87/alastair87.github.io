@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "The Abacus Lens"
+title = "Abacus Writes"
 
 [params]
 displayName = "EN"

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to The Abacus Lens"
+title: "Welcome to Abacus Writes"
 date: 2025-09-14
 draft: false
 description: "Introduction to analytical film and television criticism"
@@ -7,7 +7,7 @@ tags: ["introduction", "film", "analysis"]
 categories: ["Film & TV"]
 ---
 
-Welcome to The Abacus Lens, where we explore film and television through an analytical framework. This space is dedicated to thoughtful criticism, deep dives into narrative structure, and examining the cultural impact of visual media.
+Welcome to Abacus Writes, where we explore film and television through an analytical framework. This space is dedicated to thoughtful criticism, deep dives into narrative structure, and examining the cultural impact of visual media.
 
 ## What to Expect
 

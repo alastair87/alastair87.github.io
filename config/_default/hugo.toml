@@ -5,7 +5,7 @@
 # Using Hugo modules instead of theme directory
 baseURL = "https://alastair87.me/"
 defaultContentLanguage = "en"
-title = "The Abacus Lens"
+title = "Abacus Writes"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

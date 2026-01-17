@@ -16,7 +16,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Hugo extended (version from build arg)
-ARG HUGO_VERSION=0.151.0
+ARG HUGO_VERSION=0.152.2
 ENV HUGO_VERSION=${HUGO_VERSION}
 RUN wget -O hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
     && dpkg -i hugo.deb \
@@ -27,7 +27,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get install -y nodejs
 
 # Install Go (required for Hugo modules)
-ENV GO_VERSION=1.25.1
+ENV GO_VERSION=1.25.5
 RUN wget -O go.tar.gz "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" \
     && tar -C /usr/local -xzf go.tar.gz \
     && rm go.tar.gz
