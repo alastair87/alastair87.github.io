@@ -1,7 +1,6 @@
 {
-	"github.copilot.advanced": {
-		"excludes": {
-			"**/*.md": true
-		}
+	"github.copilot.enable": {
+		"*": true,
+		"markdown": false
 	}
 }
