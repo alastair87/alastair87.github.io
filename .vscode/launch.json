@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Hugo: serve drafts",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "bash -lc 'trap \"exit 0\" INT TERM; hugo serve -D'",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
