@@ -74,6 +74,11 @@ weight = 40
 #weight = 30
 
 [[main]]
+name = "Articles"
+pageRef = "articles"
+weight = 15
+
+[[main]]
 name = "About"
 pageRef = "about"
 weight = 100
