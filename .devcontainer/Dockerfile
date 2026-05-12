@@ -1,5 +1,5 @@
 # Use Ubuntu as base image
-FROM docker.io/alastair87/ubuntu:24.04
+FROM docker.io/alastair87/ubuntu:26.04
 
 # Avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
@@ -27,7 +27,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get install -y nodejs
 
 # Install Go (required for Hugo modules)
-ENV GO_VERSION=1.26.0
+ENV GO_VERSION=1.26.2
 RUN wget -O go.tar.gz "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" \
     && tar -C /usr/local -xzf go.tar.gz \
     && rm go.tar.gz
@@ -35,7 +35,6 @@ ENV PATH=$PATH:/usr/local/go/bin
 
 # Create a non-root user
 ARG USERNAME=ubuntu
-
 
 # Set the default user
 USER $USERNAME
