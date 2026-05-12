@@ -14,7 +14,7 @@ enableCodeCopy = false
 
 replyByEmail = false
 
-mainSections = ["film-tv", "frameworks"]
+mainSections = ["film-tv", "frameworks", "articles"]
 # robots = ""
 
 disableImageOptimization = false
