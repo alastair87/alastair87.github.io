@@ -16,7 +16,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Hugo extended (version from build arg)
-ARG HUGO_VERSION=0.156.0
+ARG HUGO_VERSION=0.161.1
 ENV HUGO_VERSION=${HUGO_VERSION}
 RUN wget -O hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
     && dpkg -i hugo.deb \
