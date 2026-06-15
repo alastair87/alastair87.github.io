@@ -1,14 +1,7 @@
 {
     "name": "Hugo",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "args": {
-            "USERNAME": "ubuntu",
-            "USER_UID": "1000",
-            "USER_GID": "1000",
-            "HUGO_VERSION": "${localEnv:HUGO_VERSION:0.161.1}"
-        }
-    },
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "hugo",
     
     // Configure tool-specific properties
     "customizations": {
@@ -52,7 +45,6 @@
 
     // Mount the workspace folder
     "workspaceFolder": "/workspace",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
 
     "mounts": [
     "source=${localEnv:HOME}/.config/gh,target=/home/ubuntu/.config/gh,type=bind,consistency=cached"

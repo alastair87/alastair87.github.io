@@ -15,12 +15,13 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Hugo extended (version from build arg)
-ARG HUGO_VERSION=0.161.1
-ENV HUGO_VERSION=${HUGO_VERSION}
-RUN wget -O hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
+# Install Hugo extended from the single project-level version source (.env)
+COPY .env /tmp/project.env
+RUN HUGO_VERSION="$(grep -E '^HUGO_VERSION=' /tmp/project.env | head -n 1 | cut -d '=' -f2- | tr -d '\r' | xargs)" \
+    && test -n "$HUGO_VERSION" \
+    && wget -O hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" \
     && dpkg -i hugo.deb \
-    && rm hugo.deb
+    && rm hugo.deb /tmp/project.env
 
 # Install Node.js (useful for theme development and tools)
 RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
