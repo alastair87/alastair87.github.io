@@ -1,9 +1,11 @@
 ---
 title: "Abacus Writes"
 description: "Independent research, analysis, and media critique"
-layout: "home"
+layout: "page"
 showDate: false
 showAuthor: false
 showReadingTime: false
 showWordCount: false
 ---
+
+Welcome. This site has been reset to a minimal baseline.

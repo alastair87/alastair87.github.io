@@ -11,77 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "Frameworks"
-pageRef = "frameworks"
-weight = 5
-
-[[main]]
-name = "Concepts & Models"
-pageRef = "frameworks/concepts-models"
-parent = "Frameworks"
-weight = 10
-
-[[main]]
-name = "Applications"
-pageRef = "frameworks/applications"
-parent = "Frameworks"
-weight = 20
-
-[[main]]
-name = "Meta-Methods"
-pageRef = "frameworks/meta-methods"
-parent = "Frameworks"
-weight = 30
-
-[[main]]
-name = "Film & TV"
-pageRef = "film-tv"
-weight = 20
-
-[[main]]
-name = "Deep Dives"
-pageRef = "film-tv/deep-dives"
-parent = "Film & TV"
-weight = 10
-
-[[main]]
-name = "Industry Lens"
-pageRef = "film-tv/industry-lens"
-parent = "Film & TV"
-weight = 20
-
-[[main]]
-name = "Crossovers"
-pageRef = "film-tv/crossovers"
-parent = "Film & TV"
-weight = 30
-
-[[main]]
-name = "Deep Cuts"
-pageRef = "film-tv/deep-cuts"
-parent = "Film & TV"
-weight = 40
-
-# Hidden sections (commented out but preserved)
-#[[main]]
-#name = "Strategy & Positioning"
-#pageRef = "think-tank/strategy-positioning"
-#weight = 20
-
-#[[main]]
-#name = "Society & Policy"
-#pageRef = "think-tank/society-policy"
-#weight = 30
-
-[[main]]
-name = "Articles"
-pageRef = "articles"
-weight = 15
-
-[[main]]
 name = "About"
 pageRef = "about"
-weight = 100
+weight = 10
 
 #[[main]]
 #  name = "Parent"

@@ -14,7 +14,7 @@ enableCodeCopy = false
 
 replyByEmail = false
 
-mainSections = ["film-tv", "frameworks", "articles"]
+mainSections = []
 # robots = ""
 
 disableImageOptimization = false
@@ -43,12 +43,9 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  layout = "page" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = true
-  showRecentItems = 10
-  showMoreLink = true
-  showMoreLinkDest = "/film-tv/"
+  showRecent = false
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
