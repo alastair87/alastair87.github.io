@@ -12,12 +12,12 @@
 
 [[main]]
 name = "Writing"
-pageRef = "articles"
+pageRef = "writing"
 weight = 1
 
 [[main]]
 name = "Projects"
-pageRef = "frameworks"
+pageRef = "projects"
 weight = 5
 
 [[main]]
