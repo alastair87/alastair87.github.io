@@ -1,5 +1,5 @@
 ---
-title: "Abacus Writes"
+title: "Alastair B. Cooper"
 description: "Independent research, analysis, and media critique"
 layout: "page"
 showDate: false
