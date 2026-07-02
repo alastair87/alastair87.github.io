@@ -8,7 +8,7 @@ showWordCount: false
 showAuthor: false
 ---
 
-![Alastair B. Cooper](/images/about.jpg)
+<img src="/images/about.jpg" alt="Alastair B. Cooper" style="width: 50%; height: auto; margin: 0 auto; display: block;">
 
 I'm Alastair B. Cooper. This site is a space for writing, projects, and notes on technology, institutions, (dis)ability, culture, and the practical conditions that let people turn thought into usable work.
 
