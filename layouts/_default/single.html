@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <article class="prose dark:prose-invert max-w-full">
+    {{ if eq .Params.layout "page" }}
+      <div class="flex flex-col items-center justify-center w-full">
+        {{ if .Title }}
+          <h1 class="text-center">{{ .Title }}</h1>
+        {{ end }}
+        <div class="text-center">
+          {{ .Content }}
+        </div>
+      </div>
+    {{ else }}
+      {{ if .Title }}
+        <h1>{{ .Title }}</h1>
+      {{ end }}
+      {{ .Content }}
+    {{ end }}
+  </article>
+{{ end }}
