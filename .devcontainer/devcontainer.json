@@ -46,7 +46,11 @@
     // Mount the workspace folder
     "workspaceFolder": "/workspace",
 
+    "containerEnv": {
+        "GH_TOKEN": "${localEnv:GH_TOKEN}"
+    },
+
     "mounts": [
-    "source=${localEnv:HOME}/.config/gh,target=/home/ubuntu/.config/gh,type=bind,consistency=cached"
-  ]
+        "source=${localEnv:HOME}/.config/gh,target=/home/ubuntu/.config/gh,type=bind,readonly,consistency=cached"
+    ]
 }
