@@ -27,6 +27,9 @@ RUN HUGO_VERSION="$(grep -E '^HUGO_VERSION=' /tmp/project.env | head -n 1 | cut 
 RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get install -y nodejs
 
+# Install GitHub Copilot CLI
+RUN npm install -g @github/copilot
+
 # Install Go (required for Hugo modules)
 ENV GO_VERSION=1.26.3
 RUN wget -O go.tar.gz "https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz" \
