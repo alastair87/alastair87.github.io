@@ -1,0 +1,86 @@
+backend:
+  name: turbo-github
+  # Replace with the Site ID from the Turbo dashboard (site > Overview). Not a secret.
+  turbo_site_id: 00000000-0000-0000-0000-000000000000
+  # Experimental branch only; the repo is set in the Turbo dashboard, not here.
+  branch: decap-turbo
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: writing
+    label: Writing
+    label_singular: Article
+    folder: content/writing
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} ({{date}})"
+    sortable_fields: [date, title]
+    fields: &post_fields
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text, required: false }
+      - { label: Summary, name: summary, widget: text, required: false }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: Draft, name: draft, widget: boolean, default: true, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Categories, name: categories, widget: list, required: false }
+      - { label: Authors, name: authors, widget: list, required: false }
+      - { label: Series, name: series, widget: list, required: false }
+      - { label: Show date, name: showDate, widget: boolean, default: true, required: false }
+      - { label: Show author, name: showAuthor, widget: boolean, default: false, required: false }
+      - { label: Show reading time, name: showReadingTime, widget: boolean, default: true, required: false }
+      - { label: Show word count, name: showWordCount, widget: boolean, default: true, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: content/projects
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    summary: "{{title}} ({{date}})"
+    sortable_fields: [date, title]
+    fields: *post_fields
+
+  - name: pages
+    label: Pages
+    files:
+      - label: About
+        name: about
+        file: content/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Layout, name: layout, widget: string, required: false }
+          - { label: Slug, name: slug, widget: string, required: false }
+          - { label: Show date, name: showDate, widget: boolean, required: false }
+          - { label: Show reading time, name: showReadingTime, widget: boolean, required: false }
+          - { label: Show word count, name: showWordCount, widget: boolean, required: false }
+          - { label: Show author, name: showAuthor, widget: boolean, required: false }
+          - { label: Body, name: body, widget: markdown }
+      - label: Home
+        name: home
+        file: content/_index.md
+        fields: &index_fields
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text, required: false }
+          - { label: Layout, name: layout, widget: string, required: false }
+          - { label: Show date, name: showDate, widget: boolean, required: false }
+          - { label: Show author, name: showAuthor, widget: boolean, required: false }
+          - { label: Show reading time, name: showReadingTime, widget: boolean, required: false }
+          - { label: Show word count, name: showWordCount, widget: boolean, required: false }
+          - { label: Body, name: body, widget: markdown, required: false }
+      - label: Writing index
+        name: writing_index
+        file: content/writing/_index.md
+        fields: *index_fields
+      - label: Projects index
+        name: projects_index
+        file: content/projects/_index.md
+        fields: *index_fields
